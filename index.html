@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--..............Home Page...............-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Rajeev-1.png" alt="Logo" class="logo">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Experience</a></li>
+                    <li><a href="#">Skill</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <button type="button" class="resume"><a href="#">Resume</a></button>
+            </nav>
+            <div class="header_txt">
+                <p>Hello, My name is</p>
+                <h1>Rajeev <span>Kumar</span></h1>
+                <p>I am a Web Developer</p>
+                <div class="header_btn">
+                    <button type="button" class="resume"><a href="#">Resume</a></button>
+                    <button type="button" class="resume"><a href="#">Contact me</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--.............About Page.............-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/IMG_20230604_071211_411.jpg" alt="Pofile Picture">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am second year Computer Science Engineering student at <span class="college-name">MCE
+                            Motihari</span>, deeply interested in Web
+                        Development, Data Structure & Algorithms and Graphics Designing. I am always curious to learn
+                        new technologies and love to use it.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML, CSS, JAVAScript, REACT</li>
+                            <li><span>Programming</span><br>C, C++, Data Stucture & Algorithms, OOPs</li>
+                            <li><span>Graphics Designing</span><br>Adobe Photoshop, Figma</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>June 2023 - 1 month</span><br>Web Development Intern at CodeClause</li>
+                            <li><span>Jan 2023 to Mar 2023 - 3 month</span><br>Full Stack Development Training at ATPLC
+                            </li>
+                            <li><span>Nov 2022 - Present</span><br>Volunteer at National Service Scheme</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - Present</span><br>B.Tech in Computer Science & Engineering</li>
+                            <li><span>2019 - 2021</span><br>High School (Intermediate)</li>
+                            <li><span>2018 - 2019</span><br>High School (Matriculation)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--.............Contact Page.............-->
+    
+
+
+   
+    <script src="script.js"></script>
+</body>
+
+</html>
